@@ -5,11 +5,13 @@ public class List1 {
 	
 	public static void main(String[] args)
 	{
-		Set<Integer> s = new HashSet();
-		s.add(1);
-		s.add(1);
-		System.out.println(s.size());
-		
+		int a[] = { 2, 4, 1, 6, 6, 7, 5, 3, 6, 6, 3, 4, 6, 3, 4, 6, 3, 4 };
+		Set<Integer> s = new HashSet<Integer>();
+		for(int i : a)
+		{
+			s.add(i);
+		}
+		System.out.println(s);
 	}
 
 }

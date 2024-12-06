@@ -11,7 +11,6 @@ public class Amstrong {
 		int sum = 0;
 		int power = 0;
 		while(temp!=0) {
-			int rem = temp % 10;
 			power++;
 			temp /= 10;
 		}
@@ -22,6 +21,10 @@ public class Amstrong {
 			sum = sum + (int)Math.pow(rem, power);
 			temp/=10;
 		}
-		System.out.println(sum);
+		System.out.println(9/10);
+		int a = 10;
+		double b = a;
+		
+		
 	}
 }
