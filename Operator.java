@@ -14,7 +14,7 @@ public class Operator {
 		
 		System.out.println(y<<2);    // 101 --> 10100
 		
-		System.out.println(x>>1);	 // 1010 --> 101
+		System.out.println(x>>2);	 // 1010 --> 10
 		
 		if(x==10 && y==5 && x>5)
 		{

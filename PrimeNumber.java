@@ -23,6 +23,8 @@ public class PrimeNumber {
 		{
 			System.out.println("Prime number");
 		}
+		
+		System.out.println(String.format("%.3f",Math.sqrt(3)));
 	}
 
 }

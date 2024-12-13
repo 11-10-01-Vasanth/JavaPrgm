@@ -9,7 +9,7 @@ class Funcoverload {
 		return a + b + c;
 	}
 
-	int add(int... a) {
+	int add(int ...a) {
 		int sum = 0;
 		for (int t : a) {
 			sum += t;

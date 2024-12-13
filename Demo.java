@@ -7,10 +7,10 @@ public class Demo {
 		System.out.println(123 / 10);
 		System.out.println(1234 / 10 % 100);
 
-		System.out.println(50 / 100);
-
 		int num = 32554;
 		String str = Integer.toString(num);
+		
+		System.out.println(str instanceof String);
 
 		System.out.println(Integer.MAX_VALUE);
 
